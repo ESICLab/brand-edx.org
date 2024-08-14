@@ -309,12 +309,13 @@ select.form-control {
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: 'Bai Jamjuree', sans-serif !important;
 }
 
 h1, .h1 {
   line-height: calc((44 / 16) * 1rem);
   letter-spacing: -2%;
-
+  font-family: 'DindanMai', sans-serif !important;
   @media (max-width: map-get($grid-breakpoints, "sm")) {
     line-height: calc((40 / 16) * 1rem);
   }
@@ -324,22 +325,27 @@ h1, .h1 {
 }
 
 h2, .h2 {
+  font-family: 'DindanMai', sans-serif !important;
   line-height: calc((36 / 16) * 1rem);
 }
 
 h3, .h3 {
+  font-family: 'DindanMai', sans-serif !important;
   line-height: calc((28 / 16) * 1rem);
 }
 
 h4, .h4 {
+  font-family: 'DindanMai', sans-serif !important;
   line-height: calc((24 / 16) * 1rem);
 }
 
 h5, .h5 {
+  font-family: 'DindanMai', sans-serif !important;
   line-height: calc((20 / 16) * 1rem);
 }
 
 h6, .h6 {
+  font-family: 'DindanMai', sans-serif !important;
   line-height: calc((20 / 16) * 1rem);
 }
 
@@ -349,10 +355,12 @@ h6, .h6 {
 
 .small {
   line-height: calc((24 / 16) * 1rem);
+  font-family: 'Bai Jamjuree', sans-serif !important;
 }
 
 .x-small {
   line-height: calc((20 / 16) * 1rem);
+  font-family: 'Bai Jamjuree', sans-serif !important;
 }
 
 p > a[href]:not(.btn),
@@ -362,6 +370,7 @@ a.inline-link {
   &:hover {
     text-decoration-color: rgba($link-color, 1);
   }
+  font-family: 'Bai Jamjuree', sans-serif !important;
 }
 
 // Progress Bar

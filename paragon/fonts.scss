@@ -1,1 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Roboto+Mono&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;700&display=swap');
+
+@font-face {
+  font-family: 'DindanMai';
+  src: url('./fonts/DindanMai-Black.woff') format('woff');
+  font-weight: 900; /* Black */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DindanMai';
+  src: url('./fonts/DindanMai-Bold.woff') format('woff');
+  font-weight: 700; /* Bold */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DindanMai';
+  src: url('./fonts/DindanMai-Medium.woff') format('woff');
+  font-weight: 500; /* Medium */
+  font-style: normal;
+}
