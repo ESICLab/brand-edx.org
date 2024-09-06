@@ -349,6 +349,13 @@ h6, .h6 {
   line-height: calc((20 / 16) * 1rem);
 }
 
+label, .label {
+  font-family: 'Bai Jamjuree', sans-serif !important;
+}
+
+div {
+  font-family: 'Bai Jamjuree', sans-serif !important;
+}
 .lead {
   line-height: calc((36 / 16) * 1rem);
 }
